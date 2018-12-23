@@ -32,7 +32,7 @@ run :
 	make run; \
     else \
 	make all; \
-	./$(BUILD_DIR)/Main ; \
+	./$(BUILD_DIR)/Main >> ./out.ppm ; \
     fi ;
 
 # objs :
