@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/madjestic/Projects/Ray_Tracing_in_a_Weekend/CPP/ch02",
-  "command": "/usr/bin/c++      -o CMakeFiles/./build/Main.dir/src/Main.cpp.o -c /home/madjestic/Projects/Ray_Tracing_in_a_Weekend/CPP/ch02/src/Main.cpp",
-  "file": "/home/madjestic/Projects/Ray_Tracing_in_a_Weekend/CPP/ch02/src/Main.cpp"
-}
-]
