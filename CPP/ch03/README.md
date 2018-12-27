@@ -1,8 +1,11 @@
 # build instructions
 
 ```bash
-  $ cd ${project_dir}/build
-  $ ccmake ..
-  $ make
-  $ ~/.emacs.d/elpa/rtags-20181205.1639/rtags-2.21/bin/rc -J compile_commands.json
+  $ cd ${project_dir}
+  $ make              
+```
+# set up RTags:
+```bash
+  $ rdm &                     # start a rtags daemon
+  $ rc -J .                   # index the project with rtags
 ```

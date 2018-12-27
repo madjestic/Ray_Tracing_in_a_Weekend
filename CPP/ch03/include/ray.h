@@ -1,9 +1,8 @@
-#ifndef   RAYH
+#ifndef  RAYH
 #define  RAYH
 #include "vec3.h"
 
-class ray
-{
+class ray{
 public:
   ray() {}
   ray(const vec3& pos, const vec3& dir) { Pos = pos; Dir = dir; }
