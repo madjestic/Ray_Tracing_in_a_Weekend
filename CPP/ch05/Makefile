@@ -14,4 +14,8 @@ out:
 	fi ;
 
 clean:
-	@rm -rf ./build/* ;
+	@rm -rf ./build/* ;	
+
+tags:
+	cd ./build &&	rdm&
+	cd ./build &&	rc -J .
